@@ -1,0 +1,104 @@
+body {
+background-color:#777;
+background-image:url("assets/images/hip-square.png");
+box-sizing:border-box;
+font-family:'Arial','Helvetica Neue',Helvetica,sans-serif;
+font-size:18px;
+margin:0 100px;
+text-align:center;
+width:960px;
+color:#777
+}
+
+#top {
+margin: 10px 0;
+padding:0;
+background-color:#fff;
+border-style: solid;
+border-color: #777;
+border-width: 2px 0;
+}
+
+#headerdiv, nav {
+width:48%;
+display:inline-block;
+padding:40px 0;
+margin:0
+background-color:#fff;
+}
+
+header{
+background-color:#47ACA6;
+width:150px;
+color:#fff
+}
+
+footer {
+margin-bottom:20px;
+margin-top:20px;
+padding:40px 0;
+width:100%
+}
+
+nav,section,h1,h2,h3,p,aside,footer {
+background-color:#fff;
+color:#777
+}
+
+/*article {
+background-color:#777;
+color:#ebebeb;
+margin-top:30px;
+padding:20px
+}*/
+
+aside {
+float:left;
+height:236px;
+margin-left:20px;
+padding:30px 0;
+width:445px;
+}
+
+section {
+float:left;
+padding:30px 10px 10px 20px;
+width:465px;
+text-align: left
+}
+
+.clearfix::after {
+clear:both;
+content:"";
+display:block
+}
+
+#main {
+margin-top:20px;
+position:relative
+}
+
+#img {
+background-color:#ebebeb;
+margin:0 0;
+padding:0 10px 0 0;
+float:left;
+}
+
+p {
+text-align: left;
+margin:0;
+padding:0 0 20px 0
+}
+
+h1,h2,h3 {
+display:inline-block;
+font-family: 'Georgia', Times, Times New Roman, serif;
+font-size:1.25em;
+font-weight:700;
+color:#4aaaa5
+}
+
+h3 {
+	font-size:1em;
+}
